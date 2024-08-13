@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+.parent {
+  background-color: #af47ff;
+  padding: 30px;
+  width: 300px;
+}
+
+.child {
+  background-color: #ff4797;
+  padding: 30px;
+  position: relative;
+}
+
+.box {
+  background-color: #f3ff47;
+  padding: 30px;
+  border: 2px dotted #333;
+  text-align: center;
+  font-size: 2rem;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /*
+    transform: translate(-50%); 
+    left: 50%;
+   */
+}
